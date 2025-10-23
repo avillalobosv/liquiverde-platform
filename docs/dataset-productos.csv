@@ -1,0 +1,20 @@
+barcode,name,brand,price,sustainability_score,health_score,category,carbon_footprint,description
+1234567890123,Leche Entera,Soprole,1200,7.5,6.0,Lácteos,2.1,Leche entera pasteurizada en envase reciclable
+1234567890126,Yogurt Natural,Nestlé,800,6.5,7.0,Lácteos,1.8,Yogurt natural sin azúcar añadida
+1234567890131,Queso Gauda,Colun,3200,5.0,5.5,Lácteos,3.2,Queso gauda tradicional
+1234567890124,Pan Integral,Bimbo,2500,8.0,8.5,Panadería,1.2,Pan integral con granos enteros
+1234567890132,Galletas Integrales,Costa,1800,6.0,6.5,Panadería,1.5,Galletas con fibra integral
+1234567890141,Pan Molde Blanco,Hallulla,2200,5.5,5.0,Panadería,1.8,Pan de molde blanco tradicional
+1234567890125,Manzanas,Fruta Natural,1500,9.0,9.0,Frutas,0.5,Manzanas rojas chilenas
+1234567890133,Plátanos,Fruta Natural,1200,8.5,8.0,Frutas,0.3,Plátanos de exportación
+1234567890134,Naranjas,Fruta Natural,1800,8.0,9.0,Frutas,0.4,Naranjas de mesa jugosas
+1234567890127,Arroz Integral,Tucapel,2200,7.0,8.0,Granos,1.5,Arroz integral de grano largo
+1234567890135,Lentejas,Iansa,1500,8.5,9.0,Granos,0.8,Lentejas secas para cocción
+1234567890136,Avena Tradicional,Quaker,1300,7.5,8.5,Granos,1.0,Avena en hojuelas tradicional
+1234567890128,Atún en Lata,Campo Marino,1800,5.5,7.5,Pescado,2.5,Atún en lata al agua
+1234567890137,Salmón Fresco,Salmones Chile,6500,4.0,8.0,Pescado,4.2,Salmón fresco fileteado
+1234567890129,Jabón Líquido,Linic,3200,4.0,6.0,Limpieza,3.0,Jabón líquido para manos
+1234567890138,Detergente Líquido,Drive,4200,3.5,5.0,Limpieza,3.5,Detergente líquido concentrado
+1234567890130,Agua Mineral,Cachantun,800,3.5,7.0,Bebidas,1.0,Agua mineral sin gas
+1234567890139,Jugo de Naranja,Andina,2200,6.0,6.5,Bebidas,1.8,Jugo de naranja 100% natural
+1234567890140,Té Verde,Té Supremo,1500,7.0,8.0,Bebidas,0.6,Té verde en hebras

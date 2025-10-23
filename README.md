@@ -82,14 +82,6 @@ Ingredientes ecológicos
 Packaging sostenible
 Origen local
 ##################################################################################################################################
-*Dataset de Ejemplo*
-El sistema incluye productos de ejemplo en SQLite:
-8 categorías diferentes
-Precios realistas en CLP
-Scores de sostenibilidad calculados
-Huellas de carbono estimadas
-Categorías disponibles: Lácteos, Panadería, Frutas, Granos, Pescado, Limpieza, Bebidas
-##################################################################################################################################
 *Uso de IA*
 *Asistencia Recibida*
 ChatGPT/Assistant: Consultas técnicas, debugging, y estructura de código
@@ -119,6 +111,27 @@ Categorías: Probar con y sin filtros
 *3. Sistema de Recompensas*
 Hacer clic en "Simular Compra Sostenible" múltiples veces
 
+##################################################################################
+*Dataset de Ejemplo*
+El proyecto incluye **18 productos de ejemplo** en **7 categorías** diferentes con datos realistas para testing:
+
+| Categoría | 🥛 Lácteos | 🍞 Panadería | 🍎 Frutas | 🌾 Granos | 🐟 Pescado | 🧼 Limpieza | 🥤 Bebidas |
+|-----------|------------|--------------|-----------|-----------|------------|-------------|------------|
+| **Productos** | 3 | 3 | 3 | 3 | 2 | 2 | 3 |
+| **Sostenibilidad** | 6.3/10 | 6.5/10 | 8.5/10 | 7.7/10 | 4.8/10 | 3.8/10 | 5.5/10 |
+| **Precio Promedio** | $1,733 | $2,167 | $1,500 | $1,667 | $4,150 | $3,700 | $1,500 |
+
+##Generar Base de Datos
+cd backend
+python create_database.py
+
+*Codigos de barras de pruebas*
+1234567890123 - Leche Entera ($1,200)
+1234567890125 - Manzanas ($1,500) 
+1234567890124 - Pan Integral ($2,500)
+1234567890127 - Arroz Integral ($2,200)
+1234567890128 - Atún en Lata ($1,800)
 
 By Allison Villalobos Vergara
 afvillalobosv@outlook.com
+https://github.com/avillalobosv/

@@ -100,6 +100,7 @@ Personalización de interfaz de usuario
 Diseño de componentes React
 Ajuste de parámetros de algoritmos
 Documentación y preparación de entrega
+Instalacion Docker
 
 ##################################################################################################################################
 *Pruebas Recomendadas*
@@ -113,13 +114,7 @@ Hacer clic en "Simular Compra Sostenible" múltiples veces
 
 ##################################################################################
 *Dataset de Ejemplo*
-El proyecto incluye **18 productos de ejemplo** en **7 categorías** diferentes con datos realistas para testing:
-
-| Categoría | 🥛 Lácteos | 🍞 Panadería | 🍎 Frutas | 🌾 Granos | 🐟 Pescado | 🧼 Limpieza | 🥤 Bebidas |
-|-----------|------------|--------------|-----------|-----------|------------|-------------|------------|
-| **Productos** | 3 | 3 | 3 | 3 | 2 | 2 | 3 |
-| **Sostenibilidad** | 6.3/10 | 6.5/10 | 8.5/10 | 7.7/10 | 4.8/10 | 3.8/10 | 5.5/10 |
-| **Precio Promedio** | $1,733 | $2,167 | $1,500 | $1,667 | $4,150 | $3,700 | $1,500 |
+El proyecto incluye **18 productos de ejemplo** en **7 categorías** diferentes 
 
 ##Generar Base de Datos
 cd backend
@@ -131,6 +126,15 @@ python create_database.py
 1234567890124 - Pan Integral ($2,500)
 1234567890127 - Arroz Integral ($2,200)
 1234567890128 - Atún en Lata ($1,800)
+
+*Docker*
+docker-compose up --build
+# ✅ Backend running on http://localhost:8000  
+# ✅ Frontend running on http://localhost:5174
+
+*Render*
+Backend https://liquiverde-backend.onrender.com
+Frontend https://liquiverde-frontend.onrender.com
 
 By Allison Villalobos Vergara
 afvillalobosv@outlook.com

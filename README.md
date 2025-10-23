@@ -3,6 +3,25 @@
 *#  Descripción*
 Plataforma de retail inteligente que ayuda a consumidores a ahorrar dinero mientras toman decisiones de compra sostenibles, optimizando presupuesto e impacto ambiental.
 
+*IMPORTANTE*
+Entorno Backend -> /liquiverde-platform/backend$ source venv/bin/activate
+Entorno Frontend -> /liquiverde-platform/frontend$/*
+
+*Docker*
+docker-compose up --build
+# ✅ Backend running on http://localhost:8000  
+# ✅ Frontend running on http://localhost:5174
+# Opción 1: Docker (recomendado)
+docker-compose up --build
+
+# Opción 2: Manual
+cd backend && uvicorn main:app --reload --port 8000
+cd frontend && npm run dev
+
+*Render*
+Backend https://liquiverde-backend.onrender.com
+Frontend https://liquiverde-frontend.onrender.com
+
 *# Características Implementadas*
 
 *### Funcionalidades Principales*
@@ -127,14 +146,11 @@ python create_database.py
 1234567890127 - Arroz Integral ($2,200)
 1234567890128 - Atún en Lata ($1,800)
 
-*Docker*
-docker-compose up --build
-# ✅ Backend running on http://localhost:8000  
-# ✅ Frontend running on http://localhost:5174
+*Test automatizacion*
+cd backend -> directorio
+pip install pytest
+pytest test_main.py -v
 
-*Render*
-Backend https://liquiverde-backend.onrender.com
-Frontend https://liquiverde-frontend.onrender.com
 
 By Allison Villalobos Vergara
 afvillalobosv@outlook.com

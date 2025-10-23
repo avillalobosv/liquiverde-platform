@@ -1,3 +1,4 @@
+/*
 import React, { useState } from 'react';
 
 const DebugScanner = () => {
@@ -104,3 +105,4 @@ const DebugScanner = () => {
 };
 
 export default DebugScanner;
+*/

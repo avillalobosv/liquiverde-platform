@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://liquiverde-backend.onrender.com', // TU URL DE RENDER
+        target: 'https://liquiverde-backend.onrender.com', 
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
         secure: false,
